@@ -1,0 +1,13 @@
+//需要在这个文件中指定AVRO的对象序列化格式
+{
+    "namespace":"cn.tedu.pojo", //namespace对应了Java中的package
+    "type":"record",  //record对应了java中的class
+    "name":"User",  //class User
+    "fields":
+    [
+      {"name":"username","type":"string"},
+      {"name":"password","type":"string"},
+      {"name":"gender","type":"string"},
+      {"name":"age","type":"int"}
+    ]
+ }
